@@ -1,7 +1,7 @@
 package point2D;
 
 /**
- * Created by dbobkova on 02.11.2016.
+ * Created by Daria Serebryakova on 02.11.2016.
  */
 public class Point3D extends Point2D{
     public Point3D() {
