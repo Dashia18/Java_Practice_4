@@ -1,4 +1,4 @@
-package Point2D;
+package point2D;
 
 /**
  * Created by Daria Serebryakova on 01.11.2016.
@@ -37,7 +37,7 @@ public class Point2D {
 
     @Override
     public String toString() {
-        return "Point2D " +
+        return "point2D " +
                 "(" + x +
                 ", " + y +
                 ")";

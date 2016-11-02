@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 /**
  * Created by Daria Serebryakova on 01.11.2016.

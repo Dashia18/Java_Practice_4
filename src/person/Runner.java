@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 /**
  * Created by Daria Serebryakova on 01.11.2016.
@@ -17,7 +17,7 @@ public class Runner {
 
 
         //upcast - savety transformation: from the particular to the general
-        System.out.println("--upcast--");
+        System.out.println("\n--upcast--");
         Person pers2 = new Student("Daria", "N.Novgorod, Minina ave. 1", "master", 2, 0.0);
         System.out.println(pers2);
 
@@ -25,7 +25,7 @@ public class Runner {
         System.out.println(pers3);
 
         //downcast: type-safe downcast,  from the generalthe to particular
-        System.out.println("--downcast--");
+        System.out.println("\n--downcast--");
         Student stud2 = (Student)pers2;
         System.out.println(stud2);
 
@@ -33,9 +33,9 @@ public class Runner {
         System.out.println(staff2);
 
         //instanceof - tell about object what class he belongs
-        System.out.println("--instanceof--");
+        System.out.println("\n--instanceof--");
         if (pers2 instanceof Person){
-            System.out.println("per2 is Person");
+            System.out.println("per2 is person");
         }
         if(pers2 instanceof Student){
             System.out.println("per2 is Student");
@@ -46,7 +46,7 @@ public class Runner {
 
 
         if (pers3 instanceof Person){
-            System.out.println("per3 is Person");
+            System.out.println("per3 is person");
         }
         if(pers3 instanceof Student){
             System.out.println("per3 is Student");
