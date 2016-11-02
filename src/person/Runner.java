@@ -24,7 +24,7 @@ public class Runner {
         Person pers3 = new Staff("Maria", "N.Novgorod, Gagarina ave. 34", "22", 0.0);
         System.out.println(pers3);
 
-        //downcast: type-safe downcast,  from the generalthe to particular
+        //downcast: type-safe downcast,  from the general to particular
         System.out.println("\n--downcast--");
         Student stud2 = (Student)pers2;
         System.out.println(stud2);
